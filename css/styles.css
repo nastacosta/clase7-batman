@@ -1,0 +1,89 @@
+*{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+header {
+    background-color: #E6E6E6;
+    margin-bottom: 10rem;
+}
+
+header img {
+    width: 140px;
+    display: flex;
+    margin-inline: auto;
+}
+
+header h1 {
+    text-align: center;
+    color: #005677;
+    background-color: #C4C4C4;
+    letter-spacing: 0.8rem;
+    font-size: 2.8rem;
+    padding: 1rem 0 1rem;
+}
+
+main{
+    font-size: 1.2rem;
+    margin-bottom: 10rem;
+}
+
+main h2 {
+    text-indent: 1rem;
+    letter-spacing: 0.4rem;
+    color: #005677;
+    background-color: #C4C4C4;
+    margin: 2.5rem 0 1rem 0;
+    padding: 0.25rem 0 0.25rem 0;
+}
+
+main section ul {
+    margin-left: 3rem;
+    line-height: 1.8rem;
+}
+
+main section ul li, main section dl {
+    font-weight: bold;
+    font-style: italic;
+}
+
+main section dl {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    font-style: normal;
+}
+
+main section ul li span, main section dd, main section dl span  {
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+main section dd {
+    text-indent: 6.5rem;
+    margin-bottom: 0.4rem;
+}
+
+footer {
+    background-color: #005677;
+}
+
+footer p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 0.5rem 0 0.5rem 0;
+    text-align: center;
+}
+
+footer p img {
+    position: relative;
+    bottom: -0.3rem;
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(338deg) brightness(300%) contrast(100%);
+}
+
+footer a {
+    margin: 0 -1rem 0 3rem;
+}
